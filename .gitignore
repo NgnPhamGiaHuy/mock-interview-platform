@@ -1,0 +1,69 @@
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+build/
+*.cache
+
+# TypeScript
+*.tsbuildinfo
+
+# Tailwind
+tailwind.config.js
+tailwind.config.ts
+postcss.config.js
+
+# Environment Variables
+.env
+.env.*.local
+
+# Logs
+*.log
+*.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor Settings
+.vscode/
+.idea/
+*.sublime-*
+
+# Testing/Temp Files
+coverage/
+*.test.js
+*.test.ts
+*.test.tsx
+*.spec.js
+*.spec.ts
+*.spec.tsx
+jest.config.js
+jest.config.ts
+*.snap
+*.map
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.sqlite
+*.sqlite3
+
+# Ignore build artifacts
+dist/
