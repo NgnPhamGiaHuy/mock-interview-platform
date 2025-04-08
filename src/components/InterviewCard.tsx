@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import dayjs from "dayjs";
 import Link from "next/link";
 import Image from "next/image";
@@ -49,4 +49,4 @@ const InterviewCard = ({ interviewId, userId, role, type, techstack, createdAt }
         </div>
     )
 }
-export default InterviewCard
+export default InterviewCard;

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 import Link from "next/link";
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
-import { dummyInterviews, interviewer } from "@/constants";
+import { dummyInterviews } from "@/constants";
 import InterviewCard from "@/components/InterviewCard";
 
 const HomePage = () => {
@@ -42,4 +42,4 @@ const HomePage = () => {
         </>
     )
 }
-export default HomePage
+export default HomePage;

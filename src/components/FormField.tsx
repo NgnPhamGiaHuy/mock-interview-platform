@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 import { Control, Controller, FieldValues, Path } from "react-hook-form";
 
@@ -26,4 +26,4 @@ const FormField = <T extends FieldValues>({ control, name, label, placeholder, t
     />
 )
 
-export default FormField
+export default FormField;
